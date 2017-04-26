@@ -1,0 +1,3 @@
+buildscript { script ->
+    logger.quiet("Eric was in the buildscript block of ${script.sourceFile?.absolutePath}")
+}
